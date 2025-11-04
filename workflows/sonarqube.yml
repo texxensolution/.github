@@ -1,3 +1,14 @@
+# This is a template workflow for organization-wide SonarQube scanning
+# name: SonarQube Scan
+# on:
+#   push:
+#     branches: [main]
+#   pull_request:
+#     branches: [main]
+#
+# Run SonarQube analysis using the self-hosted runner.
+# Applies to all repos in the organization.
+
 name: SonarQube Scan
 on:
   push:
